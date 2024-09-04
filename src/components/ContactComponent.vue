@@ -6,11 +6,25 @@
           <span>Contact Me</span>
           <h3>I Want To Hear From You</h3>
           <p>
-            Please fill out the form on this section to contact with me. Or call
-            between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+            Please reach out to me on this email to contact with me. Or call
+            between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.
           </p>
+          <h4 style="margin-top: 20px"><a href="mailto:urvashijain11uj@gmail.com" target="_blank">urvashijain11uj@gmail.com</a></h4>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/my_designwand/" target="_blank"><i class="icon-instagram-3"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/urvashi-jain-8a448b145/" target="_blank"><i class="icon-linkedin-1"></i></a>
+              </li>
+              <li>
+                <a href="https://www.behance.net/urvashijaif9aa" target="_blank"><i class="icon-behance"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="contact_inner">
+        <!-- <div class="contact_inner">
           <div class="left wow fadeInLeft" data-wow-duration="1s">
             <ul>
               <li>
@@ -119,8 +133,7 @@
             </div>
           </div>
 
-          <!-- Get your API here https://www.embedgooglemap.net -->
-        </div>
+        </div> -->
       </div>
       <div class="brush_1 wow fadeInLeft" data-wow-duration="1s">
         <img src="img/brushes/contact/1.png" alt="" />

@@ -619,7 +619,7 @@ h6 {
 }
 
 .dizme_tm_hero .name h3 {
-	font-size: 85px;
+	font-size: 40px;
 }
 
 .dizme_tm_hero .job {
@@ -731,6 +731,36 @@ h6 {
 	color: #000;
 }
 
+.dizme_tm_contact .social {
+	padding-left: 27px;
+	position: relative;
+	top: 20px;
+}
+
+.dizme_tm_contact .social ul {
+	margin: 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 16px;
+}
+
+.dizme_tm_contact .social ul li {
+	margin: 0;
+	display: inline-block;
+}
+
+.dizme_tm_contact .social ul li:last-child {
+	margin-right: 0px;
+}
+
+.dizme_tm_contact .social ul li a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #000;
+}
+
 .dizme_tm_hero .image {
 	position: relative;
 }
@@ -760,7 +790,7 @@ h6 {
 }
 
 .dizme_tm_hero .skills.photoshop {
-	background-color: #001631;
+	background-color: #FFF;
 	right: 70px;
 	top: 80px;
 }
@@ -965,6 +995,7 @@ h6 {
 	clear: both;
 	float: left;
 	padding-top: 112px;
+	margin-bottom: 160px;
 	position: relative;
 }
 
@@ -1123,8 +1154,8 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 185px;
-	margin-bottom: 165px;
+	padding-top: 0px;
+	margin-bottom: 120px;
 	position: relative;
 }
 
@@ -2078,8 +2109,8 @@ h6 {
 
 .dizme_tm_testimonials .short .image {
 	position: relative;
-	width: 60px;
-	height: 60px;
+	width: 120px;
+	height: 120px;
 	border-radius: 100%;
 }
 
@@ -2707,7 +2738,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 190px;
+	padding-top: 0px;
 	margin-bottom: 200px;
 	position: relative;
 }
@@ -3178,7 +3209,7 @@ input[type=number] {
 	}
 
 	.dizme_tm_hero .skills.photoshop {
-		right: 110px;
+		right: 80px;
 	}
 
 	.dizme_tm_hero .skills.illustrator {
@@ -3756,6 +3787,7 @@ input[type=number] {
 
 	.dizme_tm_services .service_list ul li .list_inner {
 		padding: 40px 20px;
+		min-height: 285px !important;
 	}
 
 	.dizme_tm_services .service_list .title h3 {
@@ -3894,7 +3926,7 @@ input[type=number] {
 	}
 
 	.dizme_tm_contact {
-		padding-top: 123px;
+		padding-top: 0px;
 	}
 
 	.dizme_tm_contact .contact_inner {
@@ -3904,5 +3936,29 @@ input[type=number] {
 
 	.dizme_tm_contact {
 		margin-bottom: 120px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+	.dizme_tm_hero .name h3 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 400px) {
+	.dizme_tm_hero .name h3 {
+		font-size: 32px;
+	}
+
+	.dizme_tm_hero .text p {
+		font-size: 14px;
+	}
+
+	.dizme_tm_mobile_menu .mobile_in .logo img {
+		max-height: 48px;
+	}
+
+	.dizme_tm_services .service_list ul li .list_inner {
+		min-height: 256px !important;
 	}
 }

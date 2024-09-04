@@ -16,32 +16,29 @@
             </div>
             <div class="job">
               <p>
-                A <span class="greenText">Creative Designer</span> From
+                A <span class="greenText">UX Designer</span> From
                 <span class="purpleText">New Delhi</span>
               </p>
             </div>
             <div class="text">
               <p>
-                I'm a self-taught UX designer with an engineering background, blending technical skills with a keen eye for design.
+                I'm a dynamic product designer who has worked upon various B2C, B2B products & Design System.
               </p>
             </div>
             <div class="button">
               <div class="dizme_tm_button">
-                <a class="anchor" href="#about"><span>About Me</span></a>
+                <a href="https://drive.google.com/file/d/1XfOdzXb9w9SAHwJ6ct34Hs83ZLCO942b/view?usp=sharing" target="_blank"><span>Download CV</span></a>
               </div>
               <div class="social">
                 <ul>
                   <li>
-                    <a href="#"><i class="icon-facebook-1"></i></a>
+                    <a href="https://www.instagram.com/my_designwand/" target="_blank"><i class="icon-instagram-3"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="icon-twitter-1"></i></a>
+                    <a href="https://www.linkedin.com/in/urvashi-jain-8a448b145/" target="_blank"><i class="icon-linkedin-1"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="icon-linkedin-1"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="icon-behance"></i></a>
+                    <a href="https://www.behance.net/urvashijaif9aa" target="_blank"><i class="icon-behance"></i></a>
                   </li>
                 </ul>
               </div>
@@ -54,7 +51,7 @@
                 class="skills illustrator anim_moveBottom"
                 v-html="ai"
               ></span>
-              <span class="skills photoshop anim_moveBottom" v-html="ps"></span>
+              <span class="skills photoshop anim_moveBottom" v-html="notion"></span>
               <span class="skills figma anim_moveBottom" v-html="figma"></span>
             </div>
           </div>
@@ -69,11 +66,11 @@
 </template>
 
 <script>
-import { ai, figma, mouse, mouseDark, ps } from "../svg";
+import { ai, figma, mouse, mouseDark, notion } from "../svg";
 export default {
   name: "HomeComponent",
   data() {
-    return { ai, ps, figma, mouse, mouseDark };
+    return { ai, notion, figma, mouse, mouseDark };
   },
   props: {
     dark: { type: Boolean },

@@ -6,16 +6,16 @@
     <!-- HERO -->
 
     <!-- PROCESS -->
-    <ProcessComponent />
+    <!-- <ProcessComponent /> -->
     <!-- /PROCESS -->
+
+        <!-- PORTFOLIO -->
+    <PortfolioComponent />
+    <!-- /PORTFOLIO -->
 
     <!-- ABOUT -->
     <AboutComponent />
     <!-- /ABOUT -->
-
-    <!-- PORTFOLIO -->
-    <PortfolioComponent />
-    <!-- /PORTFOLIO -->
 
     <!-- SKILLS -->
     <SkillComponent />
@@ -30,15 +30,15 @@
     <!-- /TESTIMONIALS -->
 
     <!-- PARTNERS -->
-    <PartnersComponent />
+    <!-- <PartnersComponent /> -->
     <!-- /PARTNERS -->
 
     <!-- NEWS -->
-    <NewsComponent />
+    <!-- <NewsComponent /> -->
     <!-- /NEWS -->
 
     <!-- SUBSCRIBE -->
-    <SubscribeComponent />
+    <!-- <SubscribeComponent /> -->
     <!-- /SUBSCRIBE -->
 
     <!-- CONTACT -->
@@ -62,28 +62,28 @@ import AboutComponent from "../components/AboutComponent.vue";
 import ContactComponent from "../components/ContactComponent.vue";
 import CopyrightComponent from "../components/CopyrightComponent.vue";
 import HomeComponent from "../components/HomeComponent.vue";
-import NewsComponent from "../components/NewsComponent.vue";
-import PartnersComponent from "../components/PartnersComponent.vue";
+// import NewsComponent from "../components/NewsComponent.vue";
+// import PartnersComponent from "../components/PartnersComponent.vue";
 import PortfolioComponent from "../components/PortfolioComponent.vue";
-import ProcessComponent from "../components/ProcessComponent.vue";
+// import ProcessComponent from "../components/ProcessComponent.vue";
 import ServiceCompoent from "../components/ServiceCompoent.vue";
 import SkillComponent from "../components/SkillComponent.vue";
-import SubscribeComponent from "../components/SubscribeComponent.vue";
+// import SubscribeComponent from "../components/SubscribeComponent.vue";
 import TestimonialsComponent from "../components/TestimonialsComponent.vue";
 
 export default {
   name: "IndexView",
   components: {
     HomeComponent,
-    ProcessComponent,
+    // ProcessComponent,
     AboutComponent,
     PortfolioComponent,
     SkillComponent,
     ServiceCompoent,
     TestimonialsComponent,
-    PartnersComponent,
-    NewsComponent,
-    SubscribeComponent,
+    // PartnersComponent,
+    // NewsComponent,
+    // SubscribeComponent,
     CopyrightComponent,
     ContactComponent,
     HeaderVue,

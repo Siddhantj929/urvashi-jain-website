@@ -5,8 +5,8 @@
         <div class="inner" style="justify-content: center">
           <div class="center wow fadeInLeft" data-wow-duration="1s" >
             <p>
-              Developed with love by Urvashi Jain
-              &copy; {{ new Date().getFullYear() }}
+              Copryright
+              &copy; {{ new Date().getFullYear() }}. Urvashi Jain. All Rights Reserved.
             </p>
           </div>
           <!-- <div class="right wow fadeInRight" data-wow-duration="1s">

@@ -1,5 +1,5 @@
 <template>
-  <div class="dizme_tm_section" id="about">
+  <div class="dizme_tm_section" id="mentorship">
     <div class="dizme_tm_about">
       <div class="container">
         <div class="wrapper">
@@ -9,34 +9,34 @@
               <div class="numbers year">
                 <div class="wrapper">
                   <h3>
-                    <VueJsCounter end="18"></VueJsCounter>
+                    <VueJsCounter end="40"></VueJsCounter>
                   </h3>
-                  <span class="name">Years of<br />Success</span>
+                  <span class="name">Aspiring <br />Designers</span>
                 </div>
               </div>
               <div class="numbers project">
                 <div class="wrapper">
                   <h3 style="display: flex">
-                    <VueJsCounter as="span" end="9"></VueJsCounter>K
+                    <VueJsCounter as="span" end="3"></VueJsCounter>
                   </h3>
-                  <span class="name">Total<br />Projects</span>
+                  <span class="name">Total<br />Workshops</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="right">
             <div class="title wow fadeInUp" data-wow-duration="1s">
-              <span>I'm a Designer</span>
-              <h3>I Can Design Anything You Want</h3>
+              <span>Mentorship</span>
+              <h3>Live & online workshops</h3>
             </div>
             <div class="text wow fadeInUp" data-wow-duration="1s">
               <p>
-                I love crafting seamless digital experiences and thrive in collaborative environments. Outside of work, I find creativity in calligraphy, sketching, and singing.
+                I have had the opportunity to lead several workshops, each designed to empower and inspire aspiring designers. Through these workshops, I have positively impacted the lives and careers of over 40 budding designers, guiding them through key design principles, best practices, and industry insights.
               </p>
             </div>
-            <div class="dizme_tm_button wow fadeInUp" data-wow-duration="1s">
+            <!-- <div class="dizme_tm_button wow fadeInUp" data-wow-duration="1s">
               <a class="anchor" href="#contact"><span>Hire Me</span></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

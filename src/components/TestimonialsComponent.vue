@@ -1,12 +1,11 @@
 <template>
-  <div class="dizme_tm_section">
+  <div class="dizme_tm_section" id="testimonials">
     <div class="dizme_tm_testimonials">
       <div class="dizme_tm_main_title" data-align="center">
-        <span>Testimonials</span>
-        <h3>What My Clients Say</h3>
+        <span>Recommendations</span>
+        <h3>What my colleagues say</h3>
         <p>
-          Most common methods for designing websites that work well on desktop
-          is responsive and adaptive design
+          I give my best in my work while staying eager for feedback.
         </p>
       </div>
       <div class="list_wrapper">
@@ -21,23 +20,19 @@
                 <div class="icon" v-html="testimonialIcon"></div>
                 <div class="text">
                   <p>
-                    I rarely like to write reviews, but the Marketify team truly
-                    deserve a standing ovation for their customer support,
-                    customisation and most importantly, friendliness and
-                    professionalism. Many thanks once again for everything and
-                    hope that I get to deal with you again in the near future.
+                    I am delighted to recommend Urvashi for her outstanding work as a design system designer. She played a key role in building and releasing Mindtickle’s first design system, showcasing her exceptional skills and dedication. Urvashi’s keen eye for design, deep understanding of user experience principles, and meticulous attention to detail have been vital. She excels in collaboration and seamlessly working with cross-functional teams. Always eager to learn and grow, Urvashi stays updated with the latest design trends and technologies. Her expertise, teamwork, and continuous learning mindset make her an invaluable asset to any team.
                   </p>
                 </div>
                 <div class="short">
                   <div class="image">
                     <div
                       class="main"
-                      data-img-url="/img/testimonials/4.jpg"
+                      data-img-url="/img/testimonials/1.jpeg"
                     ></div>
                   </div>
                   <div class="detail">
-                    <h3>Mike Anderson</h3>
-                    <span>Vivaco Studio</span>
+                    <h3>Ron Severdia</h3>
+                    <span>VP of Design at Mindickle</span>
                   </div>
                 </div>
               </swiper-slide>
@@ -45,23 +40,19 @@
                 <div class="icon" v-html="testimonialIcon"></div>
                 <div class="text">
                   <p>
-                    Really the Code Quality, Customer Support, and design are
-                    awesome and its good support they are giving. They give an
-                    instant solution to our needs. Really awesome. I will
-                    strongly recommend to my friends. Simply amazing team and
-                    amazing theme! Thank you from United States of America!
+                    Urvashi started working with me as an associate product designer for the SplashLearn growth team. The role included redesigning the user flows basis new product requirements, being part of user research calls and designing the experience. She is also a diligent organizer who ensures that her work is updated and accessible, which helped me understand what went well and what did not. She asks the right questions, I’m sure she will hone her skills in design further to come up with exemplary solutions to those questions. I am confident that Urvashi will achieve great things in her career.
                   </p>
                 </div>
                 <div class="short">
                   <div class="image">
                     <div
                       class="main"
-                      data-img-url="/img/testimonials/3.jpg"
+                      data-img-url="/img/testimonials/2.jpeg"
                     ></div>
                   </div>
                   <div class="detail">
-                    <h3>Keita Smith</h3>
-                    <span>ABC Group</span>
+                    <h3>Nikita Singh</h3>
+                    <span>Design Head at SplashLearn</span>
                   </div>
                 </div>
               </swiper-slide>
@@ -69,23 +60,21 @@
                 <div class="icon" v-html="testimonialIcon"></div>
                 <div class="text">
                   <p>
-                    Loved the template design, documentation, customizability
-                    and the customer support from Marketify team! I am a noob in
-                    programming with very little knowledge about coding but the
-                    Marketify team helped me to launch my resume website
-                    successfully. Much recommended!
+                    Urvashi & I worked together on multiple projects and she always brought curiosity to the table.
+                    Her approach to design is methodical and user-centric. She always backs her prototypes with research, logic, and usability testing.
+                    As a dedicated designer to the tutoring squad at SplashLearn, she was able to deliver under constraints in a fast-paced environment.
                   </p>
                 </div>
                 <div class="short">
                   <div class="image">
                     <div
                       class="main"
-                      data-img-url="/img/testimonials/6.jpg"
+                      data-img-url="/img/testimonials/3.jpeg"
                     ></div>
                   </div>
                   <div class="detail">
-                    <h3>Alan Walker</h3>
-                    <span>Web Designer</span>
+                    <h3>Neil Verma</h3>
+                    <span>PM at SplashLearn</span>
                   </div>
                 </div>
               </swiper-slide>
@@ -93,51 +82,11 @@
             <div class="owl-dots"></div>
           </div>
           <div class="left_details">
-            <div
-              class="det_image one wow fadeIn"
-              data-wow-duration="1s"
-              data-img-url="/img/testimonials/2.jpg"
-            ></div>
-            <div
-              class="det_image two wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.2s"
-              data-img-url="/img/testimonials/1.jpg"
-            ></div>
-            <div
-              class="det_image three wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.4s"
-              data-img-url="/img/testimonials/3.jpg"
-            ></div>
-            <div
-              class="det_image four wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.6s"
-              data-img-url="/img/testimonials/4.jpg"
-            ></div>
             <span class="circle green animPulse"></span>
             <span class="circle yellow animPulse"></span>
             <span class="circle border animPulse"></span>
           </div>
           <div class="right_details">
-            <div
-              class="det_image one wow fadeIn"
-              data-wow-duration="1s"
-              data-img-url="/img/testimonials/5.jpg"
-            ></div>
-            <div
-              class="det_image two wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.2s"
-              data-img-url="/img/testimonials/6.jpg"
-            ></div>
-            <div
-              class="det_image three wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.4s"
-              data-img-url="/img/testimonials/7.jpg"
-            ></div>
             <span class="circle yellow animPulse"></span>
             <span class="circle purple animPulse"></span>
             <span class="circle border animPulse"></span>

@@ -2,71 +2,12 @@
   <div class="dizme_tm_section" id="portfolio">
     <div class="dizme_tm_portfolio">
       <div class="container">
-        <div class="dizme_tm_main_title" data-align="center">
+        <div class="dizme_tm_main_title" style="margin-bottom: 50px !important" data-align="center">
           <span>Portfolio</span>
-          <h3>My Amazing Works</h3>
+          <h3>My Design Works</h3>
           <p>
-            Most common methods for designing websites that work well on desktop
-            is responsive and adaptive design
+            Explore my case studies and design system projects
           </p>
-        </div>
-        <div class="portfolio_filter">
-          <ul>
-            <li>
-              <a
-                class="c-pointer"
-                :class="activeNav === '1' ? 'current' : ''"
-                @click.prevent="() => (this.activeNav = '1')"
-                data-filter="*"
-                >All</a
-              >
-            </li>
-            <li>
-              <a
-                class="c-pointer"
-                :class="activeNav === '2' ? 'current' : ''"
-                @click.prevent="() => (this.activeNav = '2')"
-                data-filter=".youtube"
-                >Youtube</a
-              >
-            </li>
-            <li>
-              <a
-                class="c-pointer"
-                :class="activeNav === '3' ? 'current' : ''"
-                @click.prevent="() => (this.activeNav = '3')"
-                data-filter=".vimeo"
-                >Vimeo</a
-              >
-            </li>
-            <li>
-              <a
-                class="c-pointer"
-                :class="activeNav === '4' ? 'current' : ''"
-                @click.prevent="() => (this.activeNav = '4')"
-                data-filter=".soundcloud"
-                >Soundcloud</a
-              >
-            </li>
-            <li>
-              <a
-                class="c-pointer"
-                :class="activeNav === '5' ? 'current' : ''"
-                @click.prevent="() => (this.activeNav = '5')"
-                data-filter=".popup"
-                >Popup</a
-              >
-            </li>
-            <li>
-              <a
-                class="c-pointer"
-                :class="activeNav === '6' ? 'current' : ''"
-                @click.prevent="() => (this.activeNav = '6')"
-                data-filter=".detail"
-                >Detail</a
-              >
-            </li>
-          </ul>
         </div>
         <div class="dizme_tm_portfolio_titles"></div>
         <div class="portfolio_list wow fadeInUp" data-wow-duration="1s">
@@ -75,21 +16,20 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Mockup Shape"
-                  data-category="Youtube"
+                  data-title="Career Mate"
+                  data-category="Mobile App"
                 >
                   <a
-                    class="popup-youtube"
-                    href="#"
-                    @click.prevent="() => onClick('youtube', '7e90gBu4pas')"
+                    href="https://www.behance.net/gallery/133498023/Case-study-Career-counselling-and-guidance-app"
+                    target="_blank"
                   >
                     <img src="/img/thumbs/42-56.jpg" alt="" />
                     <div class="main" data-img-url="/img/portfolio/1.jpg"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Mockup Shape</h3>
-                  <span>Youtube</span>
+                  <h3>Career Mate</h3>
+                  <span>Mobile App</span>
                 </div>
               </div>
             </li>
@@ -97,21 +37,20 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Ave Bottle"
-                  data-category="Vimeo"
+                  data-title="Parent Referral System"
+                  data-category="Landing Page"
                 >
                   <a
-                    class="popup-vimeo"
-                    href="#"
-                    @click.prevent="() => onClick('vimeo', '337293658')"
+                    href="https://www.behance.net/gallery/153997551/Case-study-Parent-referral-program"
+                    target="_blank"
                   >
                     <img src="/img/thumbs/42-34.jpg" alt="" />
                     <div class="main" data-img-url="/img/portfolio/2.jpg"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Ave Bottle</h3>
-                  <span>Vimeo</span>
+                  <h3>Parent Referral System</h3>
+                  <span>Landing Page</span>
                 </div>
               </div>
             </li>
@@ -119,21 +58,20 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Magic Art"
-                  data-category="Soundcloud"
+                  data-title="Champions of Campk12"
+                  data-category="Dashboard"
                 >
                   <a
-                    class="soundcloude_link mfp-iframe audio"
-                    href="#"
-                    @click.prevent="() => onClick('soundcloud', '471954807')"
+                    href="https://www.behance.net/gallery/204255793/Case-study-Landing-page"
+                    target="_blank"
                   >
                     <img src="/img/thumbs/42-56.jpg" alt="" />
                     <div class="main" data-img-url="/img/portfolio/3.jpg"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Magic Art</h3>
-                  <span>Soundcloud</span>
+                  <h3>Champions of Campk12</h3>
+                  <span>Dashboard</span>
                 </div>
               </div>
             </li>
@@ -141,21 +79,20 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Scott Felix"
-                  data-category="Popup"
+                  data-title="Leave Management System"
+                  data-category="Landing Page"
                 >
                   <a
-                    class="zoom"
-                    href="#"
-                    @click.prevent="() => onClick('img', 'img/portfolio/5.jpg')"
+                    href="https://medium.com/design-bootcamp/case-study-web-landing-page-for-leave-management-system-d404b302cda9"
+                    target="_blank"
                   >
                     <img src="/img/thumbs/42-56.jpg" alt="" />
                     <div class="main" data-img-url="/img/portfolio/5.jpg"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Blue Lemon</h3>
-                  <span>Popup</span>
+                  <h3>Leave Management System</h3>
+                  <span>Landing Page</span>
                 </div>
               </div>
             </li>
@@ -163,21 +100,20 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Art Stone"
-                  data-category="Popup"
+                  data-title="Grid System"
+                  data-category="System Design"
                 >
                   <a
-                    class="zoom"
-                    href="#"
-                    @click.prevent="() => onClick('img', 'img/portfolio/4.jpg')"
+                    href="https://drive.google.com/file/d/1QZ_diYIYXPty8-atr5VYYsi_jl3CJgL6/view?usp=sharing"
+                    target="_blank"
                   >
                     <img src="/img/thumbs/42-34.jpg" alt="" />
                     <div class="main" data-img-url="/img/portfolio/4.jpg"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Art Stone</h3>
-                  <span>Popup</span>
+                  <h3>Grid System</h3>
+                  <span>System Design</span>
                 </div>
               </div>
             </li>
@@ -185,21 +121,20 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Global Evolution"
-                  data-category="Detail"
+                  data-title="Documentation Tool"
+                  data-category="UX Research"
                 >
                   <a
-                    class="portfolio_popup"
-                    href="#"
-                    @click.prevent="active = 1"
+                    href="https://drive.google.com/drive/folders/1xQNjSD3wmBXxsBo-XEz0Dhw2d8zFmd6p?usp=sharing"
+                    target="_blank"
                   >
                     <img src="/img/thumbs/42-34.jpg" alt="" />
                     <div class="main" data-img-url="/img/portfolio/6.jpg"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Global Evolution</h3>
-                  <span>Detail</span>
+                  <h3>Documentation Tool</h3>
+                  <span>UX Research</span>
                 </div>
               </div>
             </li>
@@ -214,7 +149,7 @@
       </div>
     </div>
   </div>
-  <MagnificPopUpVue
+  <!-- <MagnificPopUpVue
     :modal="modal"
     :close="closeModal"
     :name="name"
@@ -309,12 +244,12 @@
         </div>
       </div>
     </ModalBox>
-  </div>
+  </div> -->
 </template>
 
 <script>
-import MagnificPopUpVue from "./popup/MagnificPopUp.vue";
-import ModalBox from "./popup/ModalBox.vue";
+// import MagnificPopUpVue from "./popup/MagnificPopUp.vue";
+// import ModalBox from "./popup/ModalBox.vue";
 export default {
   name: "PortfolioComponent",
   data() {
@@ -330,7 +265,7 @@ export default {
   mounted() {
     let Isotope = require("isotope-layout");
     setTimeout(() => {
-      let iso = new Isotope(".gallery_zoom", {
+      let iso = new Isotope(".grid", {
         itemSelector: ".grid-item",
         //    layoutMode: "fitRows",
         percentPosition: true,
@@ -357,6 +292,7 @@ export default {
       };
       // bind filter button click filter main funtion
       let filtersElem = document.querySelector(".portfolio_filter ul");
+      if (filtersElem)
       filtersElem.addEventListener("click", function (event) {
         if (event.target.getAttribute("data-filter")) {
           let filterValue = event.target.getAttribute("data-filter");
@@ -364,23 +300,24 @@ export default {
           iso.arrange({ filter: filterValue });
         }
       });
+          iso.arrange({ filter: '*' });
     }, 1000);
   },
   methods: {
-    onClick(name, src) {
-      this.name = name;
-      this.src = src;
-      this.modal = true;
-    },
-    closeModal() {
-      this.modal = false;
-      this.name = "";
-      this.src = "";
-    },
-    close() {
-      this.active = 0;
-    },
+    // onClick(name, src) {
+    //   this.name = name;
+    //   this.src = src;
+    //   this.modal = true;
+    // },
+    // closeModal() {
+    //   this.modal = false;
+    //   this.name = "";
+    //   this.src = "";
+    // },
+    // close() {
+    //   this.active = 0;
+    // },
   },
-  components: { MagnificPopUpVue, ModalBox },
+  // components: { MagnificPopUpVue, ModalBox },
 };
 </script>

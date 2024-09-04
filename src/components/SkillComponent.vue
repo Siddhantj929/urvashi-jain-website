@@ -1,5 +1,5 @@
 <template>
-  <div class="dizme_tm_section">
+  <div class="dizme_tm_section" id="hobbies">
     <div class="dizme_tm_skills">
       <div class="container">
         <div class="wrapper">
@@ -9,57 +9,15 @@
               data-wow-duration="1s"
               data-align="left"
             >
-              <span>Design is Life</span>
-              <h3>I Develop Skills Regularly to Keep Me Update</h3>
+              <span>Hobbies</span>
+              <h3>Embracing personal time</h3>
               <p>
-                Most common methods for designing websites that work well on
-                desktop is responsive and adaptive design
+                Outside of work, I find great joy in pursuing creative hobbies like calligraphy and sketching. Calligraphy allows me to explore the beauty of typography and the art of lettering. Sketching, on the other hand, provides me with a sense of freedom to capture ideas, emotions, and scenes from daily life or imagination on paper.
               </p>
-            </div>
-            <div class="dodo_progress wow fadeInUp" data-wow-duration="1s">
-              <div
-                class="progress_inner skillsInner___"
-                data-value="85"
-                data-color="#f75023"
-              >
-                <span
-                  ><span class="label">Illustrator</span
-                  ><span class="number">85%</span></span
-                >
-                <div class="background">
-                  <div class="bar"><div class="bar_in"></div></div>
-                </div>
-              </div>
-              <div
-                class="progress_inner skillsInner___"
-                data-value="95"
-                data-color="#1cbe59"
-              >
-                <span
-                  ><span class="label">Photoshop</span
-                  ><span class="number">95%</span></span
-                >
-                <div class="background">
-                  <div class="bar"><div class="bar_in"></div></div>
-                </div>
-              </div>
-              <div
-                class="progress_inner skillsInner___"
-                data-value="75"
-                data-color="#8067f0"
-              >
-                <span
-                  ><span class="label">Figma</span
-                  ><span class="number">75%</span></span
-                >
-                <div class="background">
-                  <div class="bar"><div class="bar_in"></div></div>
-                </div>
-              </div>
             </div>
           </div>
           <div class="right">
-            <img :src="`/img/skills/skills.png`" alt="" />
+            <img :src="`/img/hobby/hobby-final.png`" alt="" />
           </div>
         </div>
       </div>
