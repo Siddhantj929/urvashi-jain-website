@@ -7,7 +7,7 @@
           <h3>I Want To Hear From You</h3>
           <p>
             Please reach out to me on this email to contact with me. Or call
-            between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.
+            between 9:00 a.m. and 8:00 p.m. IST, Monday through Friday.
           </p>
           <h4 style="margin-top: 20px"><a href="mailto:urvashijain11uj@gmail.com" target="_blank">urvashijain11uj@gmail.com</a></h4>
           <div class="social">

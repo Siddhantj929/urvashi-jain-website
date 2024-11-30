@@ -100,6 +100,27 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="B2B Event Platform"
+                  data-category="On-Boarding Process"
+                >
+                  <a
+                    href="https://www.behance.net/gallery/213652757/Case-study-B2B-event-platform-registration"
+                    target="_blank"
+                  >
+                    <img src="/img/thumbs/42-34.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/6.jpg"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>B2B Event Platform</h3>
+                  <span>On-Boarding Process</span>
+                </div>
+              </div>
+            </li>
+            <li class="popup grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
                   data-title="Grid System"
                   data-category="System Design"
                 >
@@ -112,29 +133,8 @@
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>Grid System</h3>
-                  <span>System Design</span>
-                </div>
-              </div>
-            </li>
-            <li class="detail grid-item">
-              <div class="inner">
-                <div
-                  class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Documentation Tool"
-                  data-category="UX Research"
-                >
-                  <a
-                    href="https://drive.google.com/drive/folders/1xQNjSD3wmBXxsBo-XEz0Dhw2d8zFmd6p?usp=sharing"
-                    target="_blank"
-                  >
-                    <img src="/img/thumbs/42-34.jpg" alt="" />
-                    <div class="main" data-img-url="/img/portfolio/6.jpg"></div>
-                  </a>
-                </div>
-                <div class="mobile_title">
-                  <h3>Documentation Tool</h3>
-                  <span>UX Research</span>
+                  <h3>Design System</h3>
+                  <span>Stencil</span>
                 </div>
               </div>
             </li>
