@@ -59,7 +59,7 @@
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
                   data-title="Champions of Campk12"
-                  data-category="Dashboard"
+                  data-category="Landing Page"
                 >
                   <a
                     href="https://www.behance.net/gallery/204255793/Case-study-Landing-page"
@@ -71,7 +71,7 @@
                 </div>
                 <div class="mobile_title">
                   <h3>Champions of Campk12</h3>
-                  <span>Dashboard</span>
+                  <span>Landing Page</span>
                 </div>
               </div>
             </li>
@@ -121,8 +121,8 @@
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Grid System"
-                  data-category="System Design"
+                  data-title="Design System"
+                  data-category="Stencil"
                 >
                   <a
                     href="https://drive.google.com/file/d/1QZ_diYIYXPty8-atr5VYYsi_jl3CJgL6/view?usp=sharing"
